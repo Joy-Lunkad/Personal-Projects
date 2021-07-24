@@ -2,13 +2,13 @@
 
 In this project, I try to recreate [CLIP (Contrastive Language-Image Pre-training) model by Open - AI](https://openai.com/blog/clip/). 
 
-![CLIP%20on%20Visual-Genome%203268994c5566470ba0dd8461e8de92e0/Untitled.png](CLIP-on-VisualGenome/CLIP on Visual-Genome Resources/Untitled.png)
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/31923b4d668a757f45a7e3e63163b3df7b36549c/resources/CLIP%20on%20Visual-Genome%20Resources/Untitled.png" width="500">
 
 CLIP Description by Open - AI.
 
 ### How does CLIP work?
 
-![CLIP-on-VisualGenome/CLIP on Visual-Genome Resources/Untitled 1.png](CLIP-on-VisualGenome/CLIP on Visual-Genome Resources//Untitled 1.png)
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/31923b4d668a757f45a7e3e63163b3df7b36549c/resources/CLIP%20on%20Visual-Genome%20Resources/Untitled%201.png" width="700">
 
 CLIP architecture is a dual encoder architecture pre-trained using contrastive loss. 
 
@@ -31,7 +31,7 @@ It is also due to this reason that contrastive loss gives better performance wit
 
 Instead of scraping data from the internet for images and captions, I used Visual Genome Dataset to pre-train CLIP. 
 
-![CLIP%20on%20Visual-Genome%203268994c5566470ba0dd8461e8de92e0/Untitled%202.png](CLIP-on-VisualGenome/CLIP on Visual-Genome Resources/Untitled%202.png)
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/31923b4d668a757f45a7e3e63163b3df7b36549c/resources/CLIP%20on%20Visual-Genome%20Resources/Untitled%202.png" width="800">
 
 I used the region descriptions of 80000 images to train the network. 8000 images were used as the validation dataset. 
 
@@ -43,7 +43,7 @@ Optimizer used was AdamW with learning rate = 1e-4 and weight decay = 1e-4. I us
 
 ## Zero Shot Classification on Pascal VOC
 
-![CLIP%20on%20Visual-Genome%203268994c5566470ba0dd8461e8de92e0/Untitled%203.png](CLIP-on-VisualGenome/CLIP on Visual-Genome Resources//Untitled%203.png)
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/31923b4d668a757f45a7e3e63163b3df7b36549c/resources/CLIP%20on%20Visual-Genome%20Resources/Untitled%203.png" width="700">
 
 ### How To use CLIP for zero shot classification?
 
@@ -56,6 +56,6 @@ This gives us our Multi-Label Zero Shot Classifier.
 
 ### Results For Zero Shot Classification
 
-![CLIP%20on%20Visual-Genome%203268994c5566470ba0dd8461e8de92e0/Untitled%204.png](CLIP-on-VisualGenome/CLIP on Visual-Genome Resources//Untitled%204.png)
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/31923b4d668a757f45a7e3e63163b3df7b36549c/resources/CLIP%20on%20Visual-Genome%20Resources/Untitled%204.png" width="300">
 
 By Adjusting the threshold, we can easily optimize the model for accuracy, sensitivity or specificity.

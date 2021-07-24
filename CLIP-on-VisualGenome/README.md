@@ -8,7 +8,7 @@ CLIP Description by Open - AI.
 
 ### How does CLIP work?
 
-![CLIP%20on%20Visual-Genome%203268994c5566470ba0dd8461e8de92e0/Untitled%201.png](CLIP%20on%20Visual-Genome%203268994c5566470ba0dd8461e8de92e0/Untitled%201.png)
+![CLIP-on-VisualGenome/CLIP on Visual-Genome Resources/Untitled 1.png](CLIP on Visual-Genome Resources/Untitled 1.png)
 
 CLIP architecture is a dual encoder architecture pre-trained using contrastive loss. 
 

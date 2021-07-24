@@ -6,7 +6,7 @@ In this project, I try to solve Neural Machine Translation using Transformers an
 
 I used the [Hindi English Corpora](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-625F-0) to train and test the model on, which is a collection of around 120,000 English sentences with their Hindi translations. 
 
-![Neural%20Machine%20Translation%20-%20English%20to%20Hindi%204d8172f920bb4ec18f7df9df04218107/Untitled.png](Neural%20Machine%20Translation%20-%20English%20to%20Hindi%204d8172f920bb4ec18f7df9df04218107/Untitled.png)
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/947a85b6549fbbc037137d1f55d189953dfa3054/resources/Hindi2English_NMT/Untitled.png" width="800">
 
 # Preprocessing
 
@@ -25,7 +25,8 @@ I, then generated the tokens, applied padding to them and made a [tf.data.Datase
 
 ## Architecture
 
-![Neural%20Machine%20Translation%20-%20English%20to%20Hindi%204d8172f920bb4ec18f7df9df04218107/Untitled%201.png](Neural%20Machine%20Translation%20-%20English%20to%20Hindi%204d8172f920bb4ec18f7df9df04218107/Untitled%201.png)
+
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/947a85b6549fbbc037137d1f55d189953dfa3054/resources/Hindi2English_NMT/Untitled%201.png" width="300">
 
 I used a vanilla transformer architecture as described in [Attention Is All You Need](https://arxiv.org/abs/1706.03762). Transformer is solely based on attention mechanisms. Since it has less architecture design bias build into it than LSTMs or GRUs, given enough data, it outperforms them and currently sits on the top as the State Of The Art in Neural Machine Translation.
 
@@ -45,4 +46,5 @@ Using these two inputs, the transformer then generates the next word in the tran
 
 ## Examples
 
-![Neural%20Machine%20Translation%20-%20English%20to%20Hindi%204d8172f920bb4ec18f7df9df04218107/Untitled%202.png](Neural%20Machine%20Translation%20-%20English%20to%20Hindi%204d8172f920bb4ec18f7df9df04218107/Untitled%202.png)
+
+<img src="https://github.com/Joy-Lunkad/Personal-Projects/blob/947a85b6549fbbc037137d1f55d189953dfa3054/resources/Hindi2English_NMT/Untitled%202.png" width="800">
